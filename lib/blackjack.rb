@@ -54,7 +54,7 @@ def runner
   card_sum = 0
   until card_sum > 21
 
-  end_game  
-    
+  end_game
+
   end
 end
