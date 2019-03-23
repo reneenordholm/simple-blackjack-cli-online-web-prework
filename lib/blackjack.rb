@@ -19,7 +19,6 @@ def get_user_input
 end
 
 def end_game(end_total)
-  if end_total > 21
   puts "Sorry, you hit #{end_total}. Thanks for playing!"
 end
 
