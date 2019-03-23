@@ -22,9 +22,9 @@ def end_game(end_total)
   puts "Sorry, you hit #{end_total}. Thanks for playing!"
 end
 
-def initial_round
+def initial_round(initial)
   deal_card + deal_card
-  puts display_card_total
+  puts display_card_total(initial)
 end
 
 def hit?
